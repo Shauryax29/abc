@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1242</width>
+    <height>852</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="font">
+       <font>
+        <family>Ostrich Sans Inline</family>
+        <pointsize>11</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(37,9,2);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="stackedWidgetPage1" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget_2">
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>600</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>6</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: white;
+border-radius: 10px;</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="stackedWidget_2Page1">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_3" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Sign In With Email</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_4" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>User ID :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit">
+                 <property name="font">
+                  <font>
+                   <family>Ostrich Sans Inline</family>
+                   <pointsize>11</pointsize>
+                   <weight>50</weight>
+                   <italic>true</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border: 1px solid black;
+font: italic 11pt &quot;Ostrich Sans Inline&quot;;</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Enter Your User ID </string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_5" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Password :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="font">
+                  <font>
+                   <family>Ostrich Sans Inline</family>
+                   <pointsize>11</pointsize>
+                   <weight>50</weight>
+                   <italic>true</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border: 1px solid black;
+font: italic 11pt &quot;Ostrich Sans Inline&quot;;</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Enter password</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_6" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QPushButton" name="pushButton">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: blue;
+color: white;
+border-radius: 4px;
+padding: 8px;</string>
+                 </property>
+                 <property name="text">
+                  <string>Log In</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_7" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>5</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Sign Up?</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>5</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>New User</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_8" native="true">
+              <property name="font">
+               <font>
+                <pointsize>5</pointsize>
+               </font>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="font">
+                  <font>
+                   <family>Press Start 2P</family>
+                   <pointsize>5</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Forget Password?</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page">
+           <widget class="QWidget" name="widget_2" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>20</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>10</y>
+               <width>441</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Press Start 2P</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Create Your Account</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_9" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>90</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">Border black</string>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_3">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>191</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>15</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string>  First Name</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_10" native="true">
+            <property name="geometry">
+             <rect>
+              <x>239</x>
+              <y>89</y>
+              <width>231</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_4">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>211</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>15</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : 1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string>  Last Name</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_11" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>150</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QComboBox" name="comboBox">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>421</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : 1px solid black</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_12" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>220</y>
+              <width>441</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>0</y>
+               <width>171</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Press Start 2P</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Date of birth</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_5">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>30</y>
+               <width>131</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> DAY</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_6">
+             <property name="geometry">
+              <rect>
+               <x>162</x>
+               <y>31</y>
+               <width>111</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Month</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_7">
+             <property name="geometry">
+              <rect>
+               <x>282</x>
+               <y>31</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Year</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_13" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>330</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_8">
+             <property name="geometry">
+              <rect>
+               <x>12</x>
+               <y>11</y>
+               <width>421</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Password</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_14" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>390</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_9">
+             <property name="geometry">
+              <rect>
+               <x>12</x>
+               <y>10</y>
+               <width>421</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Confirm Password</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_15" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>450</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_10">
+             <property name="geometry">
+              <rect>
+               <x>12</x>
+               <y>10</y>
+               <width>421</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>16</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Phone Number</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>530</y>
+              <width>151</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Press Start 2P</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:1px solid black</string>
+            </property>
+            <property name="text">
+             <string>Continue</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <widget class="QWidget" name="widget_16" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>441</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>10</y>
+               <width>431</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Press Start 2P</family>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Recover Account</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_17" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>90</y>
+              <width>361</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>311</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Press Start 2P</family>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Reset Your Password</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_18" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>150</y>
+              <width>461</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_11">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>441</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>15</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Email address or Phone number</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_19" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>220</y>
+              <width>261</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>141</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Press Start 2P</family>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Enter Code</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_12">
+             <property name="geometry">
+              <rect>
+               <x>12</x>
+               <y>40</y>
+               <width>241</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="widget_20" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>330</y>
+              <width>451</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_13">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>10</y>
+               <width>421</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ostrich Sans Inline</family>
+               <pointsize>14</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black</string>
+             </property>
+             <property name="placeholderText">
+              <string> Enter New Password</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>430</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Press Start 2P</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:1px solid black
+</string>
+            </property>
+            <property name="text">
+             <string>Continue</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QWidget" name="widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>270</y>
+          <width>721</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>691</width>
+           <height>251</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Press Start 2P</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">Color : white;</string>
+         </property>
+         <property name="text">
+          <string>WEEEEE WEEEEE HANN BHYIIII KYAAAA HAAL HAI</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
